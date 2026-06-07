@@ -82,7 +82,7 @@ Linear and gated. A phase is done only when its verification gate passes on real
 
 The first tagged public release, **v1.0.0, is planned for 1 July 2026**, when the day-one target works end to end on macOS, Windows and Linux:
 
-> Say "Echo, what is the weather in Hemel today." The wake word triggers, the HUD pulses, a transcript appears, the brain replies, and TTS speaks the forecast. Total round trip under three seconds on a midrange laptop.
+> Say "Echo, what is the weather in London today." The wake word triggers, the HUD pulses, a transcript appears, the brain replies, and TTS speaks the forecast. Total round trip under three seconds on a midrange laptop.
 
 ## Status
 
