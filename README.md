@@ -90,6 +90,6 @@ Pre-release, building toward v1.0 on 1 July 2026. APIs and layout will move betw
 
 ## License
 
-MIT. Built by [sarmalinux](https://www.sarmalinux.com) in Hemel Hempstead, UK.
+MIT. Built by [sarmalinux](https://www.sarmalinux.com).
 
 Full plan, updates and the long write-up: [sarmalinux.com/products/echo](https://www.sarmalinux.com/products/echo).
