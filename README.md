@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://sarmalinux.com">
+<a href="https://www.sarmalinux.com/products/echo">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,20&height=210&section=header&text=echo&fontSize=78&fontColor=ffffff&fontAlignY=50&desc=an%20open%20Jarvis%20on%20every%20screen&descSize=17&descAlignY=78&animation=fadeIn" width="100%" alt="echo, an open Jarvis on every screen"/>
 </a>
 
@@ -16,6 +16,7 @@
 <img alt="Tests" src="https://img.shields.io/badge/tests-90%20passing-34d399">
 <a href="https://github.com/sarmakska/echo/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sarmakska/echo?color=22d3ee"></a>
 <img alt="v1.0 target" src="https://img.shields.io/badge/v1.0-1%20July%202026-8b5cf6">
+<a href="https://www.sarmalinux.com/products/echo"><img alt="Read the long plan" src="https://img.shields.io/badge/Read%20the%20long%20plan%20→-sarmalinux.com%2Fproducts%2Fecho-a78bfa"></a>
 </p>
 
 </div>
@@ -89,4 +90,6 @@ Pre-release, building toward v1.0 on 1 July 2026. APIs and layout will move betw
 
 ## License
 
-MIT. Built by [Sarma](https://sarmalinux.com) in Hemel Hempstead, UK.
+MIT. Built by [sarmalinux](https://www.sarmalinux.com) in Hemel Hempstead, UK.
+
+Full plan, updates and the long write-up: [sarmalinux.com/products/echo](https://www.sarmalinux.com/products/echo).
