@@ -1,0 +1,11 @@
+[package]
+name = "echo-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+echo-brain = { path = "../echo-brain" }
+echo-memory = { path = "../echo-memory" }
+echo-skills = { path = "../echo-skills" }
+thiserror = "2"

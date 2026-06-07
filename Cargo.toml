@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "apps/shell/src-tauri",
+    "crates/echo-brain",
+    "crates/echo-memory",
+    "crates/echo-voice",
+    "crates/echo-core",
+    "crates/echo-skills",
+]

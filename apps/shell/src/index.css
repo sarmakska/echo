@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* The Tauri window is transparent; let the desktop show through behind the card. */
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}

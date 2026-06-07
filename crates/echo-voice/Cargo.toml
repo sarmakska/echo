@@ -1,0 +1,16 @@
+[package]
+name = "echo-voice"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+thiserror = "2"
+cpal = { version = "0.15", optional = true }
+porcupine = { version = "0.2", optional = true }
+
+[features]
+# Real microphone capture (needs an audio input device at runtime).
+mic = ["dep:cpal"]
+# Real Porcupine wake word (needs a Picovoice access key + native library).
+wake = ["dep:porcupine"]

@@ -1,0 +1,15 @@
+name: web-search
+version: 0.1.0
+display: Web search
+icon: /icons/web-search.svg
+auth:
+  kind: none
+network:
+  allow:
+    - "*"
+tools:
+  - name: web_search
+    description: Search the web; returns top result titles and URLs
+    args:
+      query: string
+proactive: []

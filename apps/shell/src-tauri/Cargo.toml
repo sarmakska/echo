@@ -1,0 +1,27 @@
+[package]
+name = "echo-shell"
+version = "0.1.0"
+edition = "2021"
+description = "Echo desktop shell"
+authors = ["Sarma"]
+license = "MIT"
+
+[lib]
+name = "echo_shell_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["macos-private-api"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+echo-brain = { path = "../../../crates/echo-brain" }
+echo-memory = { path = "../../../crates/echo-memory" }
+echo-core = { path = "../../../crates/echo-core" }
+echo-voice = { path = "../../../crates/echo-voice" }
+
+[features]
+# Build the live voice worker (real cpal mic capture). macOS for now.
+voice = ["echo-voice/mic"]

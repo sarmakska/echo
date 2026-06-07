@@ -1,0 +1,23 @@
+name: files-local
+version: 0.1.0
+display: Local files
+icon: /icons/files-local.svg
+auth:
+  kind: none
+network:
+  allow: []
+tools:
+  - name: read_file
+    description: Read a UTF-8 file under the sandbox root
+    args:
+      path: string
+  - name: write_file
+    description: Write a UTF-8 file under the sandbox root
+    args:
+      path: string
+      content: string
+  - name: list_dir
+    description: List entries of a directory under the sandbox root
+    args:
+      path: string
+proactive: []

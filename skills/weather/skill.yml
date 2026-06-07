@@ -1,0 +1,16 @@
+name: weather
+version: 0.1.0
+display: Weather
+icon: /icons/weather.svg
+auth:
+  kind: none
+network:
+  allow:
+    - api.open-meteo.com
+tools:
+  - name: current_weather
+    description: Current weather for a latitude/longitude via Open-Meteo
+    args:
+      latitude: number
+      longitude: number
+proactive: []
