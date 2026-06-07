@@ -5,3 +5,6 @@ target/
 .DS_Store
 apps/shell/src-tauri/gen/
 icon-src.png
+
+# Internal plans, specs and working notes (never published)
+docs/internal/
