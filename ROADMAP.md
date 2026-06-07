@@ -1,6 +1,15 @@
 # Echo Roadmap
 
-Linear, weekend-paced. Do not start a phase until the prior phase is verifiably done.
+Linear and gated. Do not start a phase until the prior phase is verifiably done on
+real hardware. This is roughly two years of intended work, rolled out in small
+increments rather than big-bang. New phases land continuously; the public history
+shows the progression.
+
+Target for the first tagged public release, **v1.0.0: 1 July 2026**, when the
+day-one voice round trip works end to end on macOS, Windows and Linux. No release
+tag is cut before then.
+
+Status legend: [x] software in and tested, [ ] planned or pending its hardware gate.
 
 ## Phase 0, repo scaffold (this weekend)
 - [x] `pnpm` monorepo, Tauri 2 shell skeleton
